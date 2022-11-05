@@ -1,0 +1,25 @@
+/ copy & paste /
+#. get all the list of car
+query Car {
+  cars {
+    id
+    color
+    capacity
+  }
+}
+
+#. hello respone 
+query Hello {
+  hello
+}
+
+#. get single car by ID
+query SingleCar {
+  car(id: "2") {
+    id
+    color
+    capacity
+    type
+  }
+}
+
